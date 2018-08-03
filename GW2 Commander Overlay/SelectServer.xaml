@@ -1,0 +1,10 @@
+﻿<Window x:Class="SelectServer"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Select Server" Height="112" Width="369">
+    <Grid>
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="99,9,0,0" Name="cbServer" VerticalAlignment="Top" Width="236" />
+        <Label Content="Select Server:" Height="28" HorizontalAlignment="Left" Margin="12,7,0,0" Name="Label1" VerticalAlignment="Top" />
+        <Button Content="OK" Height="23" HorizontalAlignment="Left" Margin="133,42,0,0" Name="btnOK" VerticalAlignment="Top" Width="75" />
+    </Grid>
+</Window>
